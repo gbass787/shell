@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-#include <stdio.h>
-for (int i = 0; i < 10; i++)
-	{
-		printf("Best School\n");
-	}
+for ((i = 0 ; i < 10 ; i++)); do
+	echo "Best School"
+done
